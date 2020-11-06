@@ -565,6 +565,13 @@ class SampleDataLogic(object):
           'CT-cardio.seq.nrrd', 'CTCardioSeq',
           'SHA256:d1a1119969acead6c39c7c3ec69223fa2957edc561bc5bf384a203e2284dbc93',
           None, None, None, "SequenceFile"),
+
+        # Sample Data TEST with SNR Lab release source
+        ('SamplePreOpMRI', "Sample PreOp MRI",
+          'https://github.com/SNRLab/ProstateDataStore/releases/download/SHA256/7c15905d4357af96cad264799281a0361540cfb525c5314ab68ebba0024b0d69',
+          'SamplePreOpMRI.nrrd', 'SamplePreOpMRI',
+          'SHA256:7c15905d4357af96cad264799281a0361540cfb525c5314ab68ebba0024b0d69',
+          None, None, None, "SequenceFile"),
         )
 
     if self.builtInCategoryName not in slicer.modules.sampleDataSources:
